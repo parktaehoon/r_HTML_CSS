@@ -2,10 +2,3 @@
 
 ## HTML
 
-### text
-- addr
-- address
-- bold
-- cite
-- dfn
-- em
