@@ -62,3 +62,11 @@
 - " = &rdquo;
 - x = &times;
 - / = &divide;
+
+### video
+- video src
+- poster (사전 이미지)
+- width, height
+- preload, none, auto, metadata
+- controls
+- autoplay, loop
