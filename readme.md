@@ -98,3 +98,8 @@
 - text-indent : 들여쓰기
 - text-shadow : 그림자 (가로, 세로, 번짐, 색상)
 - p.xxx:hover, active, focus : 사용자에 대한 반응....
+  
+### box
+- width, height
+- overflow : hidden or scroll
+- border: 두께 선종류(solid, dotted, dashed, double, groove, ridge, inset, outset) 색상;
