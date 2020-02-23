@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>07_form</title>
+</head>
+
+<body>
+  <h1>form 구조</h1>
+  <form action="www.exaple.com/subscribe.php" method="get">
+    <p>여기에 폼 컨트롤이 위치한다.</p>
+  </form>
+
+  <h1>텍스트 입력</h1>
+  <form action="www.exaple.com/subscribe.php">
+    <p>사용자명:
+      <input type="text" name="username" size="15" maxlength="30" />
+    </p>
+  </form>
+
+  <h1>패스워드 입력</h1>
+  <form action="www.example.com/login.php">
+    <p>사용자명:
+      <input type="text" name="text" size="15" maxlength="30" />
+    </p>
+    <p>패스워드:
+      <input type="password" name"password size="15" maxlength="30" />
+    </p>
+  </form>
+
+  <h1>텍스트 영역</h1>
+  <form action="www.eample.com/comments.php">
+    <p>이 공연에 대해 어떻게 생각하십니까.?</p>
+    <textarea name="comments" cols="20" rows="4">의견을 입력해 주세요.</textarea>
+  </form>
+
+  <h1>라디오 버튼</h1>
+  <form action="www.example.com/profile.php">
+    <p>좋아하는 장르를 선택해 주세요:
+      <br>
+      <input type="radio" name="genre" value="rock" checked="checked" />락
+      <input type="radio" name="genre" value="pop" />팝
+      <input type="radio" name="genre" value="jazz" />재즈
+    </p>
+  </form>
+
+  <h1>체크박스</h1>
+  <form action="www.example.com/profile.php">
+    <p>좋아하는 음악 서비스들을 선택해 주세요:
+      <br>
+      <input type="checkbox" name="service" value="itunes" checked="checked" />아이튠즈
+      <input type="checkbox" name="service" value="lastfm" />라스트 FM
+      <input type="checkbox" name="service" value="sportify" />스포티파이
+    </p>
+  </form>
+
+  <h1>드롭다운 리스트 박스</h1>
+  <form action="www.example.com/profile.php">
+    <p>어떤 기기를 사용하여 음악을 들으십니까?</p>
+    <select name="device">
+      <option value="ipot">아이팟</option>
+      <option value="radio">라디오</option>
+      <option value="computer">컴퓨터</option>
+    </select>
+  </form>
+
+  <h1>다중 셀렉트 박스</h1>
+  <form action="www.example.com/profile.php">
+    <p>다음 중 연주 가능한 악기는? (PC에서는 컨트롤 키를, 맥에서는 커맨드 키를 누르면 하나 이상 선택할 수 있다.)</p>
+    <select name="instrument" size="3" multiple="multiple">
+      <option value="guitar">기타</option>
+      <option value="drum">드럼</option>
+      <option value="keybord">키보드</option>
+      <option value="base">베이스</option>
+    </select>
+  </form>
+
+  <h1>파일 입력 박스</h1>
+  <form action="www.example.com/upload.php" method="post">
+    <p>MP3 포맷으로 노래를 올리세요:</p>
+    <input type="file" name="user-song" /><br>
+    <input type="submit" name="upload" />
+  </form>
+
+  <h1>전송 버튼</h1>
+  <form action="www.example.com/subscribe.com">
+    <p>이메일 목록에 가입하세요.</p>
+    <input type="text" name="text" />
+    <input type="submit" name="subscribe" value="가입" />
+  </form>
+
+  <h1>이미지 버튼</h1>
+  <form action="www.example.com/subscribe.php">
+    <p>이메일 목록에 가입하세요:</p>
+    <input type="text" name="email" />
+    <input type="image" src="image/subscribe.jpg" width="100" height="20" />
+  </form>
+
+  <h1>button & hidden</h1>
+  <form action="www.example.com/add.php">
+    <button><img src="image/add.gif" alt="add" width="10" height="10">추가</button>
+  </form>
+
+  <h1>폼 컨트롤에 레이블 붙이기</h1>
+  <label>나이: <input type="text" name="age" /></label>
+  <br>
+  성별:
+  <input id="female" type="radio" name="gender" value="f" />
+  <label for="female">여성</label>
+  <input id="male" type="radio" name="gender" value="m" />
+  <label for="male">남성</label>
+
+  <h1>폼 요소 그룹화</h1>
+  <fieldset>
+    <legend>연락처</legend>
+    <label>이메일: <br>
+      <input type="text" name="email" /></label><br>
+    <label>휴대폰: <br>
+      <input type="text" name="mobile" /></label><br>
+    <label>전화: <br>
+      <input type="text" name="phone" /></label><br>
+  </fieldset>
+
+  <h1>폼 유효성 검증</h1>
+  <form action="www.example.com/login/" method="POST">
+    <label for="username">사용자명</label>
+    <input type="text" name="username" required="required" /><br>
+    <label for="password">비밀번호</label>
+    <input type="password" name="password" required="required" /><br>
+    <input type="submit" value="전송" />
+  </form>
+
+  <h1>날짜 입력</h1>
+  <label for="depart">출발일자</label>
+  <input id="depart" type="date" name="depart" /><br>
+  <p>이메일 주소를 입력해 주세요:</p>
+  <input type="email" value="email" />
+  <p>웹사이트 주소를 입력해 주세요:</p>
+  <input type="url" value="website" />
+  <p>검색</p>
+  <input type="search" name="search" />
+  <p>검색:</p>
+  <input type="search" name="search" placeholder="키워드 입력" /><br>
+  <input type="submit" value="전송" />
+
+</body>
+
+</html>
