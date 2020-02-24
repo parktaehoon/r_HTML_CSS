@@ -102,4 +102,9 @@
 ### box
 - width, height
 - overflow : hidden or scroll
-- border: 두께 선종류(solid, dotted, dashed, double, groove, ridge, inset, outset) 색상;
+- border : 두께 선종류(solid, dotted, dashed, double, groove, ridge, inset, outset) 색상;
+- margin : 10px auto 10px auto;
+- display : inline, block, inline-block, none;
+- visibility : hidden;
+- box-shadow: 수평거리 수직거리 번짐거리 확장거리 색상;
+- border-radius: top right bottom left;
