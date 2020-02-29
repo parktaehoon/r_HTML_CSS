@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>form_css</title>
+  <link rel="stylesheet" href="./css/form_css.css">
+</head>
+
+<body>
+  <form action="http://example.com/review.php" method="GET">
+    <fieldset class="first">
+      <legend id="one">상세정보</legend>
+      <label for="#">
+        이름: <input type="text" name="name" size="25" maxlength="100">
+      </label>
+      <br>
+      <label for="#">
+        이메일: <input type="email" name="email" size="25" maxlength="100">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>리뷰</legend>
+      <p>
+        <label for="hear">싸이트를 알게 된 경위는?</label>
+        <select name="refer" id="hear">
+          <option value="google">구글</option>
+          <option value="friend">친구</option>
+          <option value="adver">광고</option>
+          <option value="others">기타</option>
+        </select>
+      </p>
+      <p>다시 방문하시겠습니까?
+        <input type="radio" name="rating" value="Yes" />
+        <input type="radio" name="rating" value="No" />
+        <input type="radio" name="rating" value="No idea" />
+      </p>
+      <p>
+        <label for="comment">의견</label>
+        <br>
+        <textarea name="comments" id="comment" cols="40" rows="4"></textarea>
+      </p>
+      <label for="#">
+        <input type="checkbox" name="subscribe" checked="checked" />
+        이메일 업데이트에 가입
+      </label>
+      <br><br>
+      <input type="submit" value="리뷰 전송" id="send">
+    </fieldset>
+  </form>
+
+</body>
+
+</html>

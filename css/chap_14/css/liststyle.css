@@ -1,0 +1,7 @@
+ul {
+  list-style: inside circle;
+  width: 300px;
+}
+li {
+  margin: 10px 10px 10px 10px;
+}
