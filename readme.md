@@ -108,3 +108,11 @@
 - visibility : hidden;
 - box-shadow: 수평거리 수직거리 번짐거리 확장거리 색상;
 - border-radius: top right bottom left;
+
+### list, table, form
+- list-style-type: decimal, decimal-leading-zero, lower-alpah, upper-alpha, lower-roman, upper-roman;
+- list-style: inside circle;
+- CCS - table properties : width, padding, text-transform, letter-spacing, font-size, border, text-align, background-color, :hover
+- empty-cells : show or hide or inherit
+- border-spacing or border-collapse
+- cursor
