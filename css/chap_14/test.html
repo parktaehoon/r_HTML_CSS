@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>목록, 테이블, 폼</title>
+  <link rel="stylesheet" href="./css/test.css">
+</head>
+
+<body>
+  <h1>시 워크샵(Poetry Workshops)</h1>
+  <p>
+    1년 동안 다양한 시 워크샵과 심포지업을 실시한다. <br>
+    다음과 같은 이벤트가 회원들에게 무료로 제공되오니 참조하여 주시기 바랍니다.
+    <ol>
+      <li>A Poetic Perspective</li>
+      <li>Walt Whiteman at War</li>
+      <li>Found Poems and Outsider Poetry</li>
+    </ol>
+  </p>
+  <table>
+    <tr class="head">
+      <th class="tl"></th>
+      <th>뉴욕</th>
+      <th>시카고</th>
+      <th class="tr">샌프란시스코</th>
+    </tr>
+    <tr>
+      <td>A Portic Perspective</td>
+      <td>2012년 2월 4일(토) <br>오전 11시 ~ 오후 2시</td>
+      <td>2012년 2월 3일(토) <br>오전 11시 ~ 오후 2시</td>
+      <td>2012년 3월 17일(토) <br>오전 11시 ~ 오후 2시</td>
+    </tr>
+    <tr>
+      <td>Walt Whiteman at War</td>
+      <td>2012년 2월 4일(토) <br>오전 11시 ~ 오후 2시</td>
+      <td>2012년 2월 3일(토) <br>오전 11시 ~ 오후 2시</td>
+      <td>2012년 3월 17일(토) <br>오전 11시 ~ 오후 2시</td>
+    </tr>
+    <tr>
+      <td>Found poems & Outside Poetry</td>
+      <td>2012년 2월 4일(토) <br>오전 11시 ~ 오후 2시</td>
+      <td>2012년 2월 3일(토) <br>오전 11시 ~ 오후 2시</td>
+      <td>2012년 3월 17일(토) <br>오전 11시 ~ 오후 2시</td>
+    </tr>
+    <tr>
+      <td class="bl">Natural Death: An Explosion</td>
+      <td>2012년 2월 4일(토) <br>오전 11시 ~ 오후 2시</td>
+      <td>2012년 2월 3일(토) <br>오전 11시 ~ 오후 2시</td>
+      <td class="br">2012년 3월 17일(토) <br>오전 11시 ~ 오후 2시</td>
+    </tr>
+  </table>
+
+  <form action="#" method="GET">
+    <fieldset>
+      <legend><i> 관심 강좌 등록 </i></legend>
+      <label for="name">이름:
+        <input type="text" id="name">
+      </label><br>
+      <label for="email">이메일:
+        <input type="email" id="email"> <br>
+      </label>
+      <label for="center">가장 가까운 센터:</label>
+      <select name="#" id="center">
+        <option value="New York">뉴욕</option>
+        <option value="Paris">파리</option>
+        <option value="Seoul">서울</option>
+      </select>
+      <br>
+      <span>회원이십니까?</span>
+      <label for="certi">
+      <input type="radio" id="certi" value="Yes">예
+    </label>
+    <label for="certi">
+      <input type="radio" id="certi" value="No">아니오
+    </label>
+    </form>
+  </fieldset>
+  <div class="submit">
+    <input type="submit" value="등록">
+  </div>
+  
+</body>
+
+</html>

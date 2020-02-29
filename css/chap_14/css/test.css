@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+}
+
+ol {
+  list-style-type: desimal-leading-zero;
+}
+
+table {
+  border-spacing: 0;
+}
+
+th, td {
+  border: 0.1px solid #666666;
+  padding: 10px 30px 5px 10px;
+}
+
+tr.head {
+  background-color: royalblue;
+  color: aliceblue;
+  text-shadow: -1px -1px 1px #363636;
+  border-bottom: 2px solid blue;
+}
+
+tr.head th:first-child {
+  border-top-left-radius: 100px;
+}
+
+fieldset {
+  width: 350px;
+  margin-top: 30px;
+  padding: 20px 10px 20px 10px;
+  line-height: 1.5em;
+}
+
+input[type=text] {
+  width: 120px;
+  border: 1px solid #d6d6d6;
+  padding : 2px;
+}
+
+input[type=text]:hover {
+  background-color: #d0e2f0;
+  border: 1px solid #999999;
+}
+
+.submit {
+  width: 350px;
+  text-align: right;
+  margin-top: 20px;
+}
