@@ -1,0 +1,29 @@
+p.one {
+  position: relative;
+  top: 10px;
+  left: 100px;
+}
+
+h1.title {
+  position: absolute;
+  top: 0;
+  left: 500px;
+  width: 250px;
+}
+
+p {
+  width: 450px;
+  position: relative;
+  top: 70px;
+  left: 70px;
+}
+
+.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  background-color: #efefef;
+}

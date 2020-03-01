@@ -1,0 +1,12 @@
+body {
+  width: 750px;
+
+}
+
+p {
+  width: 200px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  background-color: #efefef;
+}

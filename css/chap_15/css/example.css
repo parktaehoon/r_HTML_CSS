@@ -1,0 +1,41 @@
+body {
+  background-color: #413f3b;
+  color: #ffffff;
+}
+
+a {
+  color: #b5c1ad;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
+
+.header {
+  background-image: url(../images/bg-header.jpg);
+  padding: 0 0 0 0;
+  height: 100px;
+
+}
+.logo {
+  margin-bottom: 20px;
+}
+.nav {
+  float: right;
+  padding: 45px 0 0 0;
+}
+
+.main {
+  width: 960px;
+  margin: 0 auto;
+  background-image: url(../images/bg-triangle.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.feature {
+  background-image: url(../images/triangles.png);
+  background-repeat: no-repeat;
+  background-position: 122px 142px;
+  height: 570px;
+}
