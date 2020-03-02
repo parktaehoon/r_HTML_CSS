@@ -1,0 +1,112 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
+}
+
+body {
+  color: #666666;
+  background-color: #f9f8f6;
+  background-image: url(../images/dark-wood.jpg);
+  background-position: center;
+  font-family: Geogia, Times, sarif;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+div {
+  width: 940px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+
+header {
+  background-image: url(../images/header.jpg);
+  height: 160px;
+}
+
+h1 {
+  width: 940px;
+  height: 130px;
+  margin: 0;
+  text-indent: -9999px;
+}
+
+nav, footer {
+  width: 940px;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 30px;
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 5px 0 5px 30px;
+}
+nav li{
+  display: inline;
+  margin-right: 40px;
+}
+nav a {
+  color: #ffffff;
+}
+nav a:hover {
+  color: #000000;
+}
+
+section.courses {
+  float: left;
+  width: 659px;
+  border-right: 1px solid #eeeeee;
+}
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+hgroup {
+  margin-top: 40px;
+}
+
+aside {
+  width: 230px;
+  float: left;
+  padding-left: 20px;
+}
+aside a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+  color: #de6581;
+  text-decoration: none;
+}
+aside a:hover {
+  color: #985d6a;
+  background-color: #efefef;
+}
+
+h2 {
+  margin: 10px 0 5px 0;
+  padding: 0;
+}
+aside h2 {
+  margin: 30px 0 10px 0;
+  color: #de6581;
+}
+
+footer {
+  font-size: 80%;
+  padding: 7px 0 0 20px;
+}
