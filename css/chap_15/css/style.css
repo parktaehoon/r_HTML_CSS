@@ -1,0 +1,88 @@
+header, nav, section, article, figure, footer {
+  display: block;
+}
+
+body {
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  color: #b5c1ad;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+div {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+header {
+  background-image: url(../images/bg-header.jpg);
+  height: 100px;
+  width: 960px;
+  position: fixed;
+}
+h1 {
+  text-indent: -9999px;
+  height: 0;
+  margin: 0;
+}
+h2 {
+  padding-left: 10px;
+}
+.logo {
+  margin-left: 42px;
+}
+nav {
+  float: right;
+  padding: 0;
+  margin: 30px 20px 0 0;
+}
+nav li {
+  display: inline;
+}
+a {
+  color: #b5c1ad;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
+
+section {
+  width: 940px;
+  padding: 100px 10px 0 10px;
+  border-bottom: 1px solid #ffffff;
+}
+
+article {
+  overflow: auto;
+}
+.feature {
+  float: left;
+  background-image: url(../images/bg-triangle.png);
+  background-repeat: no-repeat;
+  padding: 144px 50px 80px 123px;
+}
+.feature-para {
+  padding: 190px 0 30px 0;
+  font-size: 75%;
+  color: #ffffff;
+}
+
+.details {
+  float: left;
+  width: 220px;
+}
+.details, .details2 {
+  padding: 0 7px 0 8px;
+}
+article figure {
+  margin: 0;
+}
+
+.detail-para {
+  border-bottom: 1px solid #b5c1ad;
+  padding-bottom: 20px;
+  font-size: 80%;
+}
